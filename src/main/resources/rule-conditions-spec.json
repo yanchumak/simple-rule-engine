@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "name": "atLeastOneProcess",
+      "params": [
+        {
+          "name": "someParam",
+          "type": "INTEGER"
+        }
+      ]
+    },
+    {
+      "name": "someCondition",
+      "params": [
+        {
+          "name": "someParam",
+          "type": "LIST_INTEGER"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "test rule",
+  "composition": {
+    "operator": "AND",
+    "conditions": [
+      {
+        "name": "atLeastOneProcess",
+        "params": [
+          {
+            "name": "someParam",
+            "value": 323
+          }
+        ]
+      },
+      {
+        "name": "atLeastOneProcess",
+        "params": [
+          {
+            "name": "someParam",
+            "value": 100
+          }
+        ]
+      }
+    ],
+    "composition": {
+      "operator": "OR",
+      "conditions": [
+        {
+          "name": "someCondition",
+          "params": [
+            {
+              "name": "someParam",
+              "value": [1,1]
+            }
+          ]
+        },
+        {
+          "name": "someCondition",
+          "params": [
+            {
+              "name": "someParam",
+              "value": [1,1,2,2,2,2,2,2]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
